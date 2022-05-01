@@ -76,7 +76,7 @@ class SocketListener:
             except Exception:
                 print("An Error Accurred")
 
-socket_listener = SocketListener("10.0.2.25", 8080)
+socket_listener = SocketListener("your_computer_ip", 8080)
 socket_listener.start_listener()
 
 
